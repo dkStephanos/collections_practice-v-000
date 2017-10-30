@@ -39,3 +39,9 @@ def find_a(array)
     item.start_with?("a")
   end
 end
+
+def sum_array(array)
+  array.inject do |sum, n|
+    sum + n
+  end
+end
